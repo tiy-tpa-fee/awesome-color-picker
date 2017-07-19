@@ -17,10 +17,10 @@ const handleChange = event => {
   updateColor()
 }
 
-hueSlider.addEventListener('change', handleChange)
-saturationSlider.addEventListener('change', handleChange)
-lightnessSlider.addEventListener('change', handleChange)
-alphaSlider.addEventListener('change', handleChange)
+hueSlider.addEventListener('input', handleChange)
+saturationSlider.addEventListener('input', handleChange)
+lightnessSlider.addEventListener('input', handleChange)
+alphaSlider.addEventListener('input', handleChange)
 
 const updateColor = () => {
   const hslValue = `hsla(${color.hue}, ${color.saturation}%, ${color.lightness}%, ${color.alpha})`
