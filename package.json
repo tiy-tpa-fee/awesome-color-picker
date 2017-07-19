@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "browser-sync start -s ./public -f ./public"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.12"
+  }
+}
