@@ -16,7 +16,7 @@ h1 {
 
 .color-well {
   width: 200px;
-  background-image: url('checker.png');
+  background-image: url('checkers.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -31,7 +31,6 @@ h1 {
   align-items: center;
   border: thick solid #666;
   background-color: red;
-  background-image: ;
 }
 
 .color-well figcaption {
